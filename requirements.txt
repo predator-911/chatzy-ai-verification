@@ -1,0 +1,8 @@
+torch
+transformers>=4.44.2
+huggingface-hub>=0.25.0
+pytesseract
+Pillow
+rapidfuzz
+python-dateutil
+regex
