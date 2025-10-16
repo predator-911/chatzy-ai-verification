@@ -1,0 +1,132 @@
+[
+  {
+    "person_id": "P001",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Rahul Kumar Sharma",
+        "fathers_name": "Vijay Kumar Sharma",
+        "date_of_birth": "15-08-1995",
+        "complete_address": "House No 123, Green Park, New Delhi, Delhi 110016",
+        "phone_number": "+91-9876543210",
+        "email_address": "",
+        "aadhaar_number": "1234 5678 9012",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      },
+      "document_2": {
+        "full_name": "Rahul Kumar Sharma",
+        "fathers_name": "",
+        "date_of_birth": "",
+        "complete_address": "123 Green Park, New Delhi 110016",
+        "phone_number": "+91-9876543210",
+        "email_address": "rahul.sharma@email.com",
+        "aadhaar_number": "",
+        "pan_number": "ABCDE1234F",
+        "employee_id": "",
+        "account_number": "30123456789"
+      },
+      "document_3": {
+        "full_name": "Rahul Kumar Sharma",
+        "fathers_name": "Vijay Kumar Sharma",
+        "date_of_birth": "15-08-1995",
+        "complete_address": "House 123, Green Park, New Delhi, Delhi, 110016",
+        "phone_number": "+91-9876543210",
+        "email_address": "rahul.sharma@email.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "EMP001",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "PASS"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      }
+    },
+    "overall_status": "VERIFIED"
+  },
+  {
+    "person_id": "P002",
+    "extracted_data": {
+      "document_1": {
+        "full_name": "Priya Patel Singh",
+        "fathers_name": "Ravi Patel",
+        "date_of_birth": "22-03-1998",
+        "complete_address": "Flat 456, Sector 15, Gurgaon, Haryana 122001",
+        "phone_number": "+91-8765432109",
+        "email_address": "",
+        "aadhaar_number": "9876 5432 1098",
+        "pan_number": "",
+        "employee_id": "",
+        "account_number": ""
+      },
+      "document_2": {
+        "full_name": "Priya Singh",
+        "fathers_name": "",
+        "date_of_birth": "",
+        "complete_address": "456 Sector 15, Gurgaon 122001",
+        "phone_number": "+91-8765432109",
+        "email_address": "priya.singh@email.com",
+        "aadhaar_number": "",
+        "pan_number": "DEFGH5678I",
+        "employee_id": "",
+        "account_number": "40987654321"
+      },
+      "document_3": {
+        "full_name": "Priya P Singh",
+        "fathers_name": "Ravi Patel",
+        "date_of_birth": "22-03-1998",
+        "complete_address": "Flat 456, Sector-15, Gurgaon, HR 122001",
+        "phone_number": "+91-8765432109",
+        "email_address": "priya.singh@email.com",
+        "aadhaar_number": "",
+        "pan_number": "",
+        "employee_id": "EMP002",
+        "account_number": ""
+      }
+    },
+    "verification_results": {
+      "rule_1_name_match": {
+        "status": "PASS"
+      },
+      "rule_2_dob_match": {
+        "status": "PASS"
+      },
+      "rule_3_address_match": {
+        "status": "PASS"
+      },
+      "rule_4_phone_match": {
+        "status": "PASS"
+      },
+      "rule_5_father_name_match": {
+        "status": "PASS"
+      },
+      "rule_6_pan_format": {
+        "status": "PASS"
+      },
+      "rule_7_aadhaar_format": {
+        "status": "PASS"
+      }
+    },
+    "overall_status": "VERIFIED"
+  }
+]
